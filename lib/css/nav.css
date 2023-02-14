@@ -1,0 +1,153 @@
+/* Nav Css */
+
+#nav{
+    z-index: 100;
+    padding: 0;
+    margin: 0;
+    background-color: #f0c75e;
+    color : #726255;
+}
+#nav-list{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    font-size: 1.2rem;
+}
+#nav-list .nav-item{
+    transition: .5s all;
+    cursor: pointer;
+}
+#nav-list .nav-item:hover{
+    transform: scale(1.2);
+    color:  #372e29;
+}
+.nav-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.nav-con{
+    cursor:pointer;
+}
+.dropdown-content{
+    display : none;
+    position: absolute;
+    background: white;
+    top: 3rem;
+    right: 50%;
+    padding: 0;
+    overflow:hidden;
+}
+.showItem{
+    display : block !important;
+}
+#notificationDrop{
+    border-radius : 1rem;
+    list-style : none;
+}
+.dropdown-item{
+    padding: 1rem;
+    width : 100%;
+    transition : .3s all;
+    font-size: 14px;
+    transition: .3s all;
+}
+.dropdown-item:hover{
+    background-color: var(--hoverBg);
+    color: var(--hoverColor);
+}
+
+.dropdown-deactive-item{
+    text-align: center;
+    padding: 1rem ;
+    width: 10rem;
+}
+.dropdown-message{
+    opacity: 0.5;
+}
+#settingsDrop{
+    border-radius: 1rem;
+}
+#settingsDrop li{
+    list-style: none;
+}
+#themaDrop{
+    border-radius: 1rem;
+}
+
+.gryffindorThemaBtn:hover{
+    background-color: #ae0001 !important;
+    color: #eeba30 !important;
+}
+.ravenclawThemaBtn:hover{
+    background-color: #0e1a40 !important;
+    color: 		#946b2d !important;
+}
+.slytherinThemaBtn:hover{
+    background-color: 	#2a623d !important;
+    color: 	#aaaaaa !important;
+}
+.hufflepuffThemaBtn:hover{
+    background-color: #eeba30;
+    color: #000000;
+}
+
+.opacity-span
+{
+    opacity: .5;
+}
+
+.topnav{
+    display : "flex";
+    align-items: "center";
+    width : 50%;
+}
+.topnav .nav-item {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav .nav-item.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+  color : var(--navIcon);
+}
+#moveResponsive{
+    display : flex;
+}
+#responsiveContainer{
+    background-color : #255836;
+}
+#responsiveContainer li{
+    padding : 1rem;
+}
+.icon-x-mark{
+    color: white;
+    display: none;
+}
+
+@media screen and (max-width: 850px) {
+  .topnav .nav-item{display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .responsiveContainer{
+    top : 4rem;
+    width : 100%;
+  }
+}
+/* -----------------------------*/

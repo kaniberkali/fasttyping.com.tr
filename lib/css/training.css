@@ -1,0 +1,69 @@
+#config{
+    background-color: white !important;
+    border-radius: .2rem;
+    padding: 4px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    cursor: pointer;
+    transition: .4s all;
+}
+
+#config:hover{
+    transform: scale(1.1);
+}
+
+#textAreaTra{
+    padding-top: -40px !important;
+    background-color: #726255;
+    height: 20rem;
+    color: white;
+    overflow: hidden;
+    border-radius: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#textRow{
+    top: 1px;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#textAreaTra::-webkit-scrollbar{
+    display: none;
+}
+
+#textAreaTra span{
+    padding: 0 3px;
+}
+
+#counterTra{
+    width: 100%;
+    width: 5rem;
+}
+.loader {
+    padding: 3px;
+    margin: auto;
+    border: 4px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 4x solid #183421;
+    border-bottom: 4px solid #183421;
+    width: 2rem;
+    height: 2rem;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+  }
+  
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }

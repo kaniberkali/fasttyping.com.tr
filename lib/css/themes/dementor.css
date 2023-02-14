@@ -1,0 +1,229 @@
+:root {
+    --hoverBg:#515151;
+    --hoverColor:#222222;
+    --navIcon:var(--hoverColor);
+}
+
+body{
+    background-color: #222222 !important;
+}
+.card{
+    background-color: #3B3B3B !important;
+}
+.text{
+    color: white !important;
+}
+
+.section{
+    background-color: #515151 !important;
+}
+
+
+nav{
+    border-bottom: 8px solid #515151;
+}
+.con{
+    background-color: #515151 !important;
+}
+.con:hover{
+    color: #9E9E9E !important;
+}
+
+.start-btn{
+    background-color: #9E9E9E !important;
+}
+
+.first-span{
+    background-color: #9E9E9E;
+    color: white;
+}
+
+#textArea{
+    border: 1px solid #9E9E9E;
+}
+
+#textInput{
+    border : 1px solid #9E9E9E;
+    color: white !important;
+}
+
+#textInput:focus{
+    border: 2px solid #CFCFCF;
+    box-shadow: #CFCFCF 0px 0px 0px 3px !important;
+}
+#users-table{
+    margin-top: 3rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    background-color: #9E9E9E;
+}
+
+#users-table_filter, #roomsTable_filter{
+    color: white;
+}
+
+#users-table_length, #roomsTable_length{
+    color: white;
+}
+
+#users-table_length select, #roomsTable_length select{
+    color: #CFCFCF;
+    background-color: none;
+}
+
+#users-table_info, #roomsTable_info{
+    color: white;
+}
+
+#users-table_filter input, #roomsTable_filter input{
+    background-color: #9E9E9E;
+}
+
+div[role="progressbar"] {
+    --size: 12rem;
+    --fg: #222222;
+    --bg: #def;
+    --pgPercentage: var(--value);
+    animation: growProgressBar 3s 1 forwards;
+    width: var(--size);
+    height: var(--size);
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    background: 
+      radial-gradient(closest-side, white 80%, transparent 0 99.9%, white 0),
+      conic-gradient(var(--fg) calc(var(--pgPercentage) * 1%), var(--bg) 0)
+      ;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: calc(var(--size) / 5);
+    color: var(--fg);
+  }
+  
+  div[role="progressbar"]::before {
+    counter-reset: percentage var(--value);
+    content: counter(percentage) '%';
+  }
+  .btn-join{
+    color: aliceblue;
+    background: #372e29 !important;
+    transition: .3s all;
+}
+.btn-join:hover{
+    transform: scale(1.1);
+    color: aliceblue;
+}
+
+#createRooms{
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+#createRooms input{
+    margin-left: 4px;
+    padding: 3px;
+    border-radius: 3px;
+    background-color: #9E9E9E !important;
+    border: none;
+    color: white;
+}
+.rommPass{
+    margin-left: 4px;
+    padding: 3px;
+    border-radius: 3px;
+    background-color: #372e29 !important;
+    border: none;
+    color: white;
+}
+
+#createRooms input:focus{
+    outline: none !important;
+    box-shadow: #CFCFCF 0px 0px 0px 3px !important;
+}
+#createRooms select{
+    margin-left: 4px;
+    padding: 3px;
+    border-radius: 3px;
+    background-color: #9E9E9E !important;
+    border: none;
+    color: white;
+}
+
+#roomsContainer{
+    display: flex;
+    justify-content: center;
+    background-color: #9E9E9E;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+#roomsTable{
+    margin-top: 3rem;
+    padding: 1rem;
+    background-color: #9E9E9E !important;
+    border-radius: 1rem;
+    color: #000000;
+}
+
+.roomsTableLastColumn{
+    padding: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#roomsTable_length
+{
+    color: #000000;
+    margin-bottom: 1rem;
+}
+#roomsTable_length select
+{
+    border: none;
+    color: #000000;
+}
+#roomsTable_filter
+{
+    color: #000000;
+}
+#roomsTable_filter input
+{
+    border: none;
+    color: #000000;
+}
+#roomsTable_filter input:focus{
+    outline: none !important;
+    box-shadow: #9E9E9E 0px 0px 0px 3px !important;
+}
+#roomsTable_info{
+    color: #000000;
+}
+#roomPass::placeholder{
+    color: white;
+    opacity: 0.3;
+    font-size: small;
+    padding-right: 1rem;
+}
+#room-chat{
+    background-color: #9E9E9E !important;
+}
+.message{
+    background-color: #515151 !important;
+    color: #000000;
+}
+.loader {
+    padding: 3px;
+    margin: auto;
+    border: 4px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 4x solid #222222;
+    border-bottom: 4px solid #222222;
+    width: 2rem;
+    height: 2rem;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+  }
+
+  #responsiveContainer{
+    background-color : #3B3B3B;
+}

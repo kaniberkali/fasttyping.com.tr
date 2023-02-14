@@ -1,0 +1,35 @@
+#settingsModal{
+    margin-top: 2rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+}
+#settingsModal select{
+    -webkit-appearance: none;
+    appearance: none;
+    padding: .2rem;
+    margin-left: 1rem;
+    width: auto;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 1rem;
+}
+
+#settingsModal select option{
+    color: black !important;
+}
+
+.settingsGroup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: .7rem;
+    width: 70%;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 15px;
+}

@@ -1,0 +1,55 @@
+#roomsContainer{
+    display: flex;
+    justify-content: center;
+    background-color: #255836;
+    padding: 1rem;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+#roomsTable{
+    margin-top: 3rem;
+    padding: 1rem;
+    background-color: #255836;
+    color: #628b6f;
+}
+
+.roomsTableLastColumn{
+    padding: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#roomsTable_length
+{
+    color: #628b6f;
+    margin-bottom: 1rem;
+}
+#roomsTable_length select
+{
+    border: none;
+    color: #628b6f;
+}
+#roomsTable_filter
+{
+    color: #628b6f;
+}
+#roomsTable_filter input
+{
+    border: none;
+    color: #628b6f;
+}
+#roomsTable_filter input:focus{
+    outline: none !important;
+    box-shadow: #628b6f 0px 0px 0px 3px !important;
+}
+#roomsTable_info{
+    color: #628b6f;
+}
+#roomPass::placeholder{
+    color: white;
+    opacity: 0.3;
+    font-size: small;
+    padding-right: 1rem;
+}

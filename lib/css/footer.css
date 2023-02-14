@@ -1,0 +1,80 @@
+/* Footer Css */
+#footer{
+    bottom: 0;
+    background-color: #f0c75e;
+    width:100%;
+    padding: 1.5rem;
+    margin-top: 1rem;
+}
+
+#footer i{
+    color: #726255;
+}
+
+#footer a{
+    text-decoration: none;
+    color: #726255;
+}
+
+.footerContent{
+    opacity: 0.5;
+}
+
+#frontendDesign{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 5rem;
+    border-right: 1px solid rgba(0, 0, 0, 0.15);
+}
+#backendDesign{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 5rem;
+}
+/* ------------------------------- */
+
+/* TopList Css */
+#userTop{
+    margin-top: 10rem;
+    width: 12rem;
+    height: 15rem;
+    background: #726255;
+    border-top: 1px solid #ecb939;
+    border-right: 1px solid #ecb939;
+    border-bottom: 1px solid #ecb939;
+    border-radius: 0 1rem 1rem 0;
+}
+#topList{
+    direction: rtl;
+    display: block;
+    margin-top: 10%;
+    position: fixed;
+    background-color: #f0c75e;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    overflow: auto;
+    width: auto;
+    max-height: 12rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+    left: 0;
+    padding-right: 1rem;
+    left: -100%;
+}
+#topList table{
+    direction: ltr;
+}
+#topList::-webkit-scrollbar{
+    width: 5px;
+}
+#topList::-webkit-scrollbar-thumb{
+    border-radius: 1rem;
+    background: #def;
+}
+#topList::-webkit-scrollbar-track{
+    background:none;
+}
+/* ---------------------------------- */

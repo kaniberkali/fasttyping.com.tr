@@ -1,0 +1,78 @@
+ /* Default Css */
+ #startBtn{
+    width: 2rem;
+    height: 2rem;
+    margin: 1rem;
+    border-radius: 50%;
+    background-color: #f0c75e;
+    border:2px solid white;
+    color: white;
+}
+
+#stopBtn{
+    width: 2rem;
+    height: 2rem;
+    margin: 1rem;
+    border-radius: 50%;
+    background-color: #f0c75e;
+    border:2px solid white;
+    color: white;
+}
+
+#restartBtn{
+    width: 2rem;
+    height: 2rem;
+    margin: 1rem;
+    border-radius: 50%;
+    background-color: #f0c75e;
+    border:2px solid white;
+    color: white;
+}
+
+#textArea{
+    background-color: #726255;
+    width: 100%;
+    height: 20rem;
+    border: 1px solid white;
+    color: white;
+    border-radius: 1rem;
+    overflow: hidden;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#textArea span{
+    padding: 3px;
+}
+.first-span{
+    border-radius: 3px;
+    background-color: white;
+    color: black;
+}
+#textInput{
+    color: #f0c75e;
+    border-color: white;
+    background-color: #726255;
+    width: 100%;
+}
+
+#textInput:focus{
+    border: 1px solid white;
+    box-shadow: white 0px 0px 0px 3px;
+}
+
+#counter{
+    font-size: 2rem;
+    width: 4rem;
+}
+.counterElements{
+    width: 4rem;
+    font-size: 1rem;
+}
+
+.disable{
+    opacity: .4;
+}
+/*---------------------------------------------*/

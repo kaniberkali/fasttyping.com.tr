@@ -1,0 +1,49 @@
+/* FriendsTable Style */
+#friends-table{
+    margin-top: 10%;
+    position: fixed;
+    overflow: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    display: block;
+    max-height: 12rem;
+    background-color: #f0c75e;
+    color: #726255;
+    right: 100%;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+}
+#friends-table::-webkit-scrollbar{
+    width: 5px;
+}
+#friends-table::-webkit-scrollbar-thumb{
+    border-radius: 1rem;
+    background: #def;
+}
+#friends-table::-webkit-scrollbar-track{
+    background:none;
+}
+.friend
+    {
+        margin-top: .5rem;
+    }
+    .friend a{
+        color: #726255;
+        transition: .3s all;
+    }
+    .friend a:hover{
+        color: #372e29;
+        font-size: 1.2rem;
+    }
+    .friends-empty{
+        text-align: center;
+        padding: 1rem ;
+        width: 10rem;
+    }
+    .frineds-empty-message{
+        opacity: 0.5;
+    }
+/*----------------------------------- */

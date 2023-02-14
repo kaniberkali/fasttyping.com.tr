@@ -1,0 +1,9 @@
+.inviteList{
+    width: 25rem !important;
+    max-height: 20rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.inviteList::-webkit-scrollbar{
+    display: none;
+}

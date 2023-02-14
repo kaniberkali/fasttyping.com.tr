@@ -1,0 +1,25 @@
+/* ScoreCard Css */
+#scoreCard{
+    display: flex;
+    width: 50%;
+    height: auto;
+    padding: 1rem;
+    position: absolute;
+    border-radius: 1rem;
+    color: aliceblue;
+    left: 0;
+    right: 0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 0 auto;
+    top: -20rem;
+    transition: .5s all;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.active-score{
+    transform: translateY(50vh);
+    z-index: 101;
+}
+/* ------------------------------------- */

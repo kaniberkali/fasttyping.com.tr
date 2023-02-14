@@ -1,0 +1,89 @@
+/* ConDiv Css */
+#con-div{
+    margin-top: 10%;
+    position: fixed;
+    right: 0
+}
+
+#login-con{
+    position: relative;
+    padding: 2rem;
+    color: white;
+    width: 4rem;
+    height: 2rem;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+    transition: .4s ease-out;
+    background-color: 	#f0c75e;
+    border-top-left-radius: 40%;
+    border-bottom-left-radius: 40%;
+}
+
+#login-con:hover{
+    transform: scale(1.2);
+    z-index: 3;
+}
+
+
+#register-con{
+    position: relative;
+    padding: 2rem;
+    color: white;
+    width: 4rem;
+    height: 2rem;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+    transition: .4s ease-in-out;
+    background-color: 	#f0c75e;
+    border-bottom-left-radius: 40%;
+    border-top-left-radius: 40%;
+}
+
+#register-con:hover{
+    z-index: 3;
+    transform: scale(1.2);
+}
+
+#friends-con
+{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 0;
+    padding: 2rem;
+    color: white;
+    width: 4rem;
+    height: 2rem;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+    background-color: 	#f0c75e;
+    border-top-left-radius: 40%;
+    border-bottom-left-radius: 40%;
+}
+#friends-con:hover{
+    color: #ae0001;
+}
+
+#topList-con{
+    margin-top: 10%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    padding: 2rem;
+    color: white;
+    width: 4rem;
+    height: 2rem;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+    background-color: 	#ecb939;
+    border-top-right-radius: 40%;
+    border-bottom-right-radius: 40%;
+    z-index: 98;
+}
+#topList-con:hover{
+    color: #ae0001;
+}
+/* ----------------------------------------- */

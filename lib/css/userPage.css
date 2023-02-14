@@ -1,0 +1,56 @@
+/* UserPage Css*/
+#users-table_length
+{
+    color: #726255;
+}
+#users-table_length select
+{
+    border: none;
+    color: #726255;
+}
+#users-table_filter
+{
+    color: #726255;
+}
+#users-table_filter input
+{
+    border: none;
+    background-color: #f0c75e;
+}
+#users-table_filter input:focus{
+    outline: none !important;
+    box-shadow: #726255 0px 0px 0px 3px !important;
+}
+#users-table_info{
+    color: #726255;
+}
+#users-table-content
+{
+    background-color: #ecb939;
+    padding: 1.5rem;
+    border-radius: 2rem;
+    overflow: hidden;
+}
+#users-table{
+    margin: auto;
+}
+.active-nav-item{
+    top: 0;
+    z-index: 90 !important;
+    transform: translateX(-50%) !important;
+}
+
+.close .line1{
+    transform: rotate(-45deg) translate(-5px, 3px);
+    transition: 0.6s ease;
+}
+
+.close .line2{
+    opacity: 0;
+}
+
+.close .line3{
+    transform: rotate(45deg) translate(-6px, -4px);
+    transition: 0.6s ease;
+}
+/* -------------------------- */

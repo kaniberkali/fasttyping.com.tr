@@ -1,0 +1,156 @@
+#beforeGame{
+    border-radius: 3px;
+    margin: auto;
+    width: 50rem;
+}
+#hostSection{
+    max-height: 40rem;
+}
+#beforeGamesUsers{
+    border-radius: 3px;
+    margin: 0 1rem;
+    width: 30rem;
+    height: 40rem;
+    overflow-y: scroll;
+}
+#beforeGamesUsers::-webkit-scrollbar{
+    display: none;
+}
+
+#gameHost .card{
+    margin-bottom: 2rem;
+}
+#gameHost .card .smProfile{
+    border-bottom: none !important;
+}
+#gameHost .card #loadMessage{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#beforeGame .card{
+    padding : 1rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0%;
+    border: none;
+}
+
+#beforeGame .card .smProfile{
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 1px solid white;
+}
+
+.level{
+    padding: .3rem;
+    border: 1px solid white;
+}
+
+#beforeGame #chatRoom .card{
+    height: 25rem;
+    padding: 1rem;
+    max-width: 19.5rem;
+    overflow: auto;
+    border-radius: 3px;
+}
+#beforeGame #chatRoom .card::-webkit-scrollbar{
+    display: none;
+}
+
+#beforeGame #chatRoom input{
+    width: 19rem;
+    border-radius: 3px;
+    border: none;
+    padding: .5rem;
+    color: white;
+    background-color: #255836;
+}
+
+#beforeGame #chatRoom input::placeholder{
+    color: white;
+    opacity: .6;
+}
+
+#beforeGame #chatRoom input:focus{
+    outline: none !important;
+}
+
+.banned-user{
+    opacity: .5;
+}
+
+.removeBan{
+    cursor: pointer;
+}
+
+.message{
+    margin-top: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #518563;
+}
+.my-message{
+    padding: 5px;
+    margin-left: auto;
+    background-color: #79aa8a
+}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 3 / 4; }
+    .div2 { grid-area: 3 / 1 / 7 / 4; }
+    .div3 { grid-area: 1 / 4 / 7 / 7; }
+#startAdmin{
+    padding: .5rem;
+    border: none;
+    border-radius: 3px;
+    background: none;
+    color: white;
+    border: 1px solid white;
+}
+.watchGame {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+    
+.watchGameDiv1 { grid-area: 1 / 1 / 4 / 7; }
+.watchGameDiv2 { grid-area: 4 / 1 / 7 / 7; }
+
+.watchGameUsers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% / 8);
+}
+.watchGameList{
+    max-height: 15rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.watchGameList::-webkit-scrollbar{
+    width: 5px;
+}
+.watchGameList::-webkit-scrollbar-thumb{
+    border-radius: 1rem;
+    background: #def;
+}
+.watchGameList::-webkit-scrollbar-track{
+    background:none;
+}

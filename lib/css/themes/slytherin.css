@@ -1,0 +1,207 @@
+:root{
+    --hoverBg:#255836;
+    --hoverColor:white;
+    --navIcon:white;
+}
+body{
+    background-color: #193D25 ;
+}
+.card{
+    background-color: #255836 !important;
+}
+.text{
+    color: white !important;
+}
+.section{
+    background-color: #2a623d !important;
+}
+
+nav{
+    border-bottom: 8px solid #255836;
+}
+
+.con{
+    background-color: #255836 !important;
+}
+.con:hover{
+    color: #193D25 !important;
+}
+
+.start-btn{
+    background-color: #255836 !important;
+}
+
+#counter{
+    background-color: #255836 !important;
+}
+
+.first-span{
+    background-color: #679777;
+    color: white;
+}
+
+#textArea{
+    border: 1px solid #679777;
+}
+
+#textInput{
+    border : 1px solid #679777;
+    color: white !important;
+}
+
+#textInput:focus{
+    border: 2px solid #679777;
+    box-shadow: #679777 0px 0px 0px 3px !important;
+}
+
+#users-table_filter, #roomsTable_filter{
+    color: white;
+}
+#users-table_filter input{
+    color: #def;
+}
+#users-table_filter input:focus{
+    box-shadow:#679777 0px 0px 0px 3px !important;;
+}
+
+#users-table_length, #roomsTable_length{
+    color: white;
+}
+
+#users-table_length select, #roomsTable_length select{
+    color: #193D25;
+    background-color: none;
+}
+
+#users-table_info, #roomsTable_info{
+    color: white;
+}
+
+#users-table_filter input, #roomsTable_filter input{
+    background-color: #2a623d;
+}
+
+div[role="progressbar"] {
+    --size: 12rem;
+    --fg: #307246;
+    --bg: #def;
+    --pgPercentage: var(--value);
+    animation: growProgressBar 3s 1 forwards;
+    width: var(--size);
+    height: var(--size);
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    background: 
+      radial-gradient(closest-side, white 80%, transparent 0 99.9%, white 0),
+      conic-gradient(var(--fg) calc(var(--pgPercentage) * 1%), var(--bg) 0)
+      ;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: calc(var(--size) / 5);
+    color: var(--fg);
+  }
+  
+  div[role="progressbar"]::before {
+    counter-reset: percentage var(--value);
+    content: counter(percentage) '%';
+  }
+  .btn-join{
+    color: aliceblue;
+    background: #628b6f;
+    transition: .3s all;
+}
+.btn-join:hover{
+    transform: scale(1.1);
+    color: aliceblue;
+}
+
+#createRooms{
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+#createRooms input{
+    margin-left: 4px;
+    padding: 3px;
+    border-radius: 3px;
+    background-color: #2a623d !important;
+    border: none;
+    color: white;
+}
+.rommPass{
+    margin-left: 4px;
+    padding: 3px;
+    border-radius: 3px;
+    background-color: #2a623d !important;
+    border: none;
+    color: white;
+}
+
+#createRooms input:focus{
+    outline: none !important;
+    box-shadow: #628b6f 0px 0px 0px 3px !important;
+}
+#createRooms select{
+    margin-left: 4px;
+    padding: 3px;
+    border-radius: 3px;
+    background-color: #2a623d !important;
+    border: none;
+    color: white;
+}
+#roomsContainer{
+    display: flex;
+    justify-content: center;
+    background-color: #255836;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+#roomsTable{
+    margin-top: 3rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: #255836;
+    color: #628b6f;
+}
+
+.roomsTableLastColumn{
+    padding: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#roomsTable_length
+{
+    color: #628b6f;
+    margin-bottom: 1rem;
+}
+#roomsTable_length select
+{
+    border: none;
+    color: #628b6f;
+}
+#roomsTable_filter
+{
+    color: #628b6f;
+}
+#roomsTable_filter input
+{
+    border: none;
+    color: #628b6f;
+}
+#roomsTable_filter input:focus{
+    outline: none !important;
+    box-shadow: #628b6f 0px 0px 0px 3px !important;
+}
+#roomsTable_info{
+    color: #628b6f;
+}
+#roomPass::placeholder{
+    color: white;
+    opacity: 0.3;
+    font-size: small;
+    padding-right: 1rem;
+}

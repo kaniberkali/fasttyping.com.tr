@@ -1,0 +1,36 @@
+#generalTitle{
+    padding: .8rem;
+    display: inline;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+.homeDesc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.home img{
+    width: 200px;
+}
+.right{
+    text-align: right;
+}
+
+.border-div1{
+    width: 55%;
+    height: 5px;
+    border-radius: 1rem;
+}
+.border-div2{
+    align-self: flex-end;
+    width: 67%;
+    height: 5px;
+    border-radius: 1rem;
+}

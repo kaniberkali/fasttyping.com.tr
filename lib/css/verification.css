@@ -1,0 +1,12 @@
+#verify-account{
+    width: 100%;
+    background-color: #5cb85c;
+    color: white;
+    border-radius: 0;
+}
+#delete-account{
+    width: 100%;
+    background-color: #d9534f;
+    color: white;
+    border-radius: 0;
+}

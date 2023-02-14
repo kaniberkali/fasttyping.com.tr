@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^(www\.|http:) [NC]
+RewriteRule ^(.*)$ https://fasttyping.com.tr/$1 [L,R=301]
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*?)$ index.php?parameters=$1 [L, QSA]
+<FilesMatch "\.(css|js|woff2)$">
+Header set Cache-Control "max-age=31536000"
+</FilesMatch>

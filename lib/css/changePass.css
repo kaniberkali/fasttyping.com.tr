@@ -1,0 +1,44 @@
+#changePass form{
+    display: flex !important;
+    flex-direction: column !important;
+}
+.changePassDiv{
+    padding-top: 2rem;
+    border-bottom: 3px solid white;
+    display: flex;
+    justify-content: center;
+}
+.changePassDiv input{
+    border: none;
+    text-align: center;
+    background-color: transparent;
+    color: aliceblue !important;
+}
+.changePassDiv input::placeholder{
+    text-align: center;
+    color: aliceblue;
+    opacity: 0.7;
+}
+.changePassDiv input:focus{
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+#change-password{
+    width: 100%;
+    background-color: #5cb85c;
+    color: white;
+    border-radius: 0;
+}
+#change-password-cancel{
+    width: 100%;
+    background-color: #d9534f;
+    color: white;
+    border-radius: 0;
+}
+#checkVerifyCode{
+    width: 100%;
+    background-color: 	#428bca;
+    color: white;
+    border-radius: 0;
+}

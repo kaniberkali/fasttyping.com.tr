@@ -1,0 +1,72 @@
+
+@import "conDiv.css";
+@import "default.css";
+@import "footer.css";
+@import "friendsTable.css";
+@import "general.css";
+@import "logincontainer.css";
+@import "nav.css";
+@import "profileCard.css";
+@import "registerContainer.css";
+@import "scoreCard.css";
+@import "userPage.css";
+@import "training.css";
+@import "rooms.css";
+@import "beforeGame.css";
+@import "changePass.css";
+@import "verification.css";
+@import "home.css";
+@import "invite.css";
+@import "configuration.css";
+@import "settingsModal.css";
+
+
+@media screen and (max-width: 1007px){
+    #counterArea{
+        flex-direction: column;
+    }
+    #footer{
+        flex-direction: column;
+    }
+    #nav{
+        width: 100%;
+    }
+    .contentMain{
+        flex-wrap: wrap;
+    }
+    .friendsTable-con
+    {
+        right: -100% !important;
+    }
+    .Zindex{
+        z-index: -99;
+    }
+}
+
+@media  screen and (max-height: 700px),(max-width: 850px) {
+    #footer{
+        margin-top: 3px;
+    }
+    #footer{
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+        height: auto;
+    }
+
+    .display-6{
+        font-size: 1rem;
+    }
+    .span-500{
+        font-size: 0.7rem;
+    }
+
+    #footer .contacts{
+        font-size: 0.5rem;
+    }
+    .login-containerActive
+    {
+        width: 80% !important;
+    }
+}

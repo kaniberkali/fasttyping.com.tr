@@ -1,0 +1,134 @@
+/* General Css */
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    body{
+        position: relative;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        background: #372e29;
+        width: 100%;
+        min-height: 100vh;
+    }
+    body::-webkit-scrollbar{
+        display: none;
+    }
+.alert{
+    z-index: 9999;
+    border: none;
+    border-radius: none;
+    position: absolute;
+    width: 100%;
+    padding: 20px;
+    top: 0;
+    text-align: center;
+    margin: 0 auto;
+    color: #def;
+}
+.alert-success{
+    background-color: #5cb85c;
+}
+.alert-warning{
+    background-color: #ec942c;
+}
+.btn-white{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 50% !important;
+    margin: .5rem;
+}
+a{
+    color: #726255;
+    text-decoration: none;
+}
+a:active{
+    text-decoration: none;
+}
+.text-primary{
+    color : #372e29 !important;
+}
+.bg-primary{
+    background-color: #ecb939;
+}
+
+.bg-success{
+    background : #f0c75e !important;
+}
+
+#blurDiv{
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: none;
+    z-index: -99;
+}
+
+.bg-danger{
+    background-color: #ae0001 !important;
+}
+.blurDivActive{
+    display: block !important;
+    background-color: rgba(0, 0, 0, 0.35);
+    z-index: 999 !important;
+}
+.contentMain{
+    margin-top: 5rem;
+    margin-bottom: 12rem;
+}
+.active{
+    overflow: hidden !important;
+}
+.contentSection{
+    width: 100%;
+    margin-top: 1rem;
+}
+
+#modal{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -9999;
+}
+.active-modal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000 !important;
+}
+.table > thead , tbody{
+    color:#726255;
+}
+.table tr{
+    border-bottom: 1px solid aliceblue !important;
+}
+.score-top{
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+.score-top:hover{
+    font-size: 1.2rem;
+}
+.scroll-table{
+    overflow: auto;
+    display: block;
+}
+.scroll-table::-webkit-scrollbar{
+    width: 5px;
+}
+.scroll-table::-webkit-scrollbar-thumb{
+    border-radius: 1rem;
+    background: #def;
+}
+.scroll-table::-webkit-scrollbar-track{
+    background:none;
+}
+.deactive{
+    display: none !important;
+}
+
+ /* --------------------------------------- */
